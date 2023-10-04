@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'serif', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(rgba(96, 96, 121, 0.5), rgba(113, 113, 142, 0.5)), url(../Images/paul-vhZe9fd9MRs-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background-color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    height: 8%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li{
+    display: inline;
+    margin: 0 8px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
